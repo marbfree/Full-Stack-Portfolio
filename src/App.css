@@ -3,13 +3,17 @@
 }
 
 .App-header {
-  background-image: url(https://images.pexels.com/photos/2613946/pexels-photo-2613946.jpeg?cs=srgb&dl=pexels-trace-hudson-2613946.jpg&fm=jpg);
+  background-image: url(https://images.unsplash.com/photo-1501436513145-30f24e19fcc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhY2VmdWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(20px + 3vmin);
-  color: #9e5a0c;
+  color: #49859a;
   text-shadow: #301801 2px 2px;
+}
+
+.card {
+  background: #eea6be
 }
