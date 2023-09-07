@@ -1,16 +1,14 @@
+import React from 'react';
 import './App.css';
+import Fader from './components/Fader'
+import Navbar from "./components/NavBar/Navigation"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src="public/PorfolioPic.png" alt="Ocean Scene"></img> */}
-        <div className="card" style={{color:"#49859a", padding:"5px 20px"}}>
-          <p>Marianna Bruns</p>
-          <p>Full Stack Web Developer</p>
-        </div>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <Fader></Fader>
+    </>
   );
 }
 

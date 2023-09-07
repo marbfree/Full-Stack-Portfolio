@@ -10,10 +10,26 @@
   align-items: center;
   justify-content: center;
   font-size: calc(20px + 3vmin);
-  color: #49859a;
-  text-shadow: #301801 2px 2px;
+  color: #174d60;
+  text-shadow: #301801 1px 1px;
 }
 
 .card {
   background: #eea6be
+}
+
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+a {
+  text-decoration: none;
+  color: #2287ac;
+  font-weight: bolder;
 }
