@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Fader from './components/Fader'
+import Fader from './components/pageComponents/bio/Fader'
 import Navbar from "./components/NavBar/Navigation"
 
 function App() {

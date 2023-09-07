@@ -1,8 +1,26 @@
 .NavbarOptions {
     background-color: transparent;
     border: none;
-    position: absolute;
     color: #2287ac;
     text-decoration: none;
     margin-top: 20px;
+    position: absolute;
+    font-size: 1.2em
 }
+
+a {
+    text-decoration: none;
+    color: #2287ac;
+    font-weight: bolder;
+  }
+
+  a:hover {
+    background-color:#eea6be;
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  a:active {
+    background-color: #eea6be;
+  }
+

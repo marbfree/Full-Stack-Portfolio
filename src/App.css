@@ -27,9 +27,3 @@
   opacity: 0;
   transition: opacity 1s ease;
 }
-
-a {
-  text-decoration: none;
-  color: #2287ac;
-  font-weight: bolder;
-}
