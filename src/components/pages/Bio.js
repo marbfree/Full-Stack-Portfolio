@@ -1,12 +1,13 @@
 import React from 'react';
 import '../pages/Bio.module.css'
 import logo from '../../../src/images/Headshot.jpeg'
+import styles from '../pages/styles.module.css'
 
 export default function Bio() {
   return (
     <body>
     <div>
-      <h1>Bio</h1>
+      <h1 className={styles.heading}>Bio</h1>
       <div style={{maxWidth: '500px'}}>
   <div className="row g-0">
     <div className="col-md-4">

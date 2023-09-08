@@ -30,13 +30,12 @@ h2 {
     font-size: 50px;
 }
 
-.backgroundProject {
-    background-image: url('../../images/CalmLake.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.heading {
+    color: #084961;
+    text-align: right;
+    font-size: 5em;
+    position: absolute;
+    right: 150px;
+    top: 100px;
 }
+
