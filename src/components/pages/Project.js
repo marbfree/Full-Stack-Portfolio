@@ -1,14 +1,15 @@
 import React from 'react';
+import '../pages/Project.css'
 
 export default function Projects() {
   return (
     <div>
       <h1>Projects</h1>
-      <section className='card'>
-        <a href='#'>
-            <img src='' alt='Meditation Rocks'></img>
+      <section>
+        {/* <a href='#'>
+            <img src='' alt='Peaceful Mountains'></img>
             <p>Project Description</p>
-        </a>
+        </a> */} 
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

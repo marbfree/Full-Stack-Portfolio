@@ -1,18 +1,34 @@
 h1 {
-    position: relative;
-    display: flex;
-    align-content: center;
     color: #2287ac;
-}
-
-.card {
-    justify-content: center;
-
+    text-align: right;
+    font-size: 5em;
+    position: absolute;
+    right: 200px;
+    top: 75px;
 }
 
 body {
     background-image: url("../../images/Rocks.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+}
 
+img {
+    margin: 100px;
+}
+
+h5 {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 275px;
+    font-weight: bold;
+}
+
+p {
+    position: absolute;
+    margin-top: 375px;
+    margin-left: -75px;
+    margin-right: 300px;
+    font-weight: bold;
 }

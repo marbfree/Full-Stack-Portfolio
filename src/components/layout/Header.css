@@ -8,3 +8,7 @@
     border: none;
 }
 
+.active {
+    background-color: #2287ac;
+}
+

@@ -1,13 +1,13 @@
 import React from "react";
-import '../../App.css'
+import '../pages/Home.css'
 
 const Home = () => {
     return (
-    <div className="App">
-      <header className="App-header">
-        <div className="card" style={{color:"#2287ac", padding:"5px 20px"}}>
-          <p>Marianna Bruns</p>
-          <p>Full Stack Web Developer</p>
+    <div>
+      <header className="background">
+        <div className="card">
+          <h2>Marianna Bruns</h2>
+          <h2>Full Stack Web Developer</h2>
         </div>
       </header>
     </div>

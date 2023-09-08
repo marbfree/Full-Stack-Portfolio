@@ -7,16 +7,15 @@ export default function Bio() {
     <body>
     <div>
       <h1>Bio</h1>
-      <div className="card mb-3 rounded-circle ml-5" style={{maxWidth: '500px'}}>
+      <div className="" style={{maxWidth: '500px'}}>
   <div className="row g-0">
     <div className="col-md-4">
       <img src={logo} className="img-fluid rounded-circle" alt="Headshot of Marianna Bruns"></img>
     </div>
     <div className="col-md-8">
-      <div className="card-body">
-        <h5 className="card-title">Marianna Bruns</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+      <div className="body" style={{color: "#2287ac"}}>
+        <h5 style={{fontSize: '2em'}}>Marianna Bruns</h5>
+        <p>Versatile Full Stack Web Developer merging skills in web development and psychology. Adept at managing the entire development lifecycle while leveraging analytics from psychology to enhance user experiences. Committed to innovation, collaboration, and mastering emerging technologies.   Encouraging creative solutions to challenges utilizing research and development and over 10 years of management experience.</p>
       </div>
     </div>
   </div>
