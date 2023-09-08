@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Fader from './components/pageComponents/bio/Fader'
-import Navbar from "./components/NavBar/Navigation"
+import PortfolioContainer from './components/layout/PortfolioContainer';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Fader></Fader>
+    <PortfolioContainer/>
     </>
   );
 }

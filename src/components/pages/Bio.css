@@ -1,0 +1,18 @@
+h1 {
+    position: relative;
+    display: flex;
+    align-content: center;
+    color: #2287ac;
+}
+
+.card {
+    justify-content: center;
+
+}
+
+body {
+    background-image: url("../../images/Rocks.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
