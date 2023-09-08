@@ -1,14 +1,10 @@
 .nav-link { 
-   color: #2287ac;
+   color: #084961;
    font-weight: bold;
 }
 
 .nav-tabs {
     background-color: #eea6be;
     border: none;
-}
-
-.active {
-    background-color: #2287ac;
 }
 

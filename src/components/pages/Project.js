@@ -1,24 +1,21 @@
 import React from 'react';
-import '../pages/Project.css'
+import styles from '../pages/styles.module.css'
+import project from '../pages/project.module.css'
 
 export default function Projects() {
-  return (
-    <body className="background-project">
-    <div>
-      <h1>Projects</h1>
-      <section>
-        <a href='#'>
-            <img src='' alt='Peaceful Mountains'></img>
-            <p>Project Description</p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </a>
-      </section>
-    </div>
-    </body>
-  );
+    return (
+        <body className={styles.backgroundProject}>
+          <div>
+            <h1 className={project.title}>Projects</h1>
+            <section className="card">
+                <div className="card" style={{width: "18rem"}}>
+                    <img className="card-img-top" src="..." alt="Card image cap"></img>
+                    <div className="card-body">
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </section>
+          </div>
+        </body>
+    );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import '../pages/Home.css'
+import styles from '../pages/styles.module.css'
 
 const Home = () => {
     return (
     <div>
-      <header className="background">
-        <div className="card">
+      <header className={styles.background}>
+        <div className={styles.card}>
           <h2>Marianna Bruns</h2>
           <h2>Full Stack Web Developer</h2>
         </div>
