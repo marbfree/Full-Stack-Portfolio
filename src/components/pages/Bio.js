@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/Bio.module.css'
-import logo from '../../../src/images/Headshot.jpeg'
+import logo from '../../images/PortfolioPic.jpg'
 import styles from '../pages/styles.module.css'
 
 export default function Bio() {
@@ -10,7 +10,7 @@ export default function Bio() {
       <h1 className={styles.heading}>Bio</h1>
       <div style={{maxWidth: '500px'}}>
   <div className="row g-0">
-    <div className="col-md-4">
+    <div className="col-md-8">
       <img src={logo} className="img-fluid rounded-circle" alt="Headshot of Marianna Bruns"></img>
     </div>
     <div className="col-md-8">

@@ -1,0 +1,10 @@
+.footer {
+    background-color: #eea6be;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icon {
+    color: #084961;
+}

@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
 import PortfolioContainer from './components/layout/PortfolioContainer';
+import Footer from "./components/layout/Footer"
 
 function App() {
   return (
     <>
     <PortfolioContainer/>
+    <Footer/>
     </>
   );
 }
