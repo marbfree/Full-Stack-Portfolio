@@ -8,6 +8,7 @@ import editor from '../../images/JATE.png';
 import note from '../../images/NoteTaker.png';
 import tech from '../../images/TechBlog.png';
 
+
 export default function Projects() {
     const projects = [
         {
@@ -57,17 +58,15 @@ export default function Projects() {
     const listItems = projects.map(projects => (
         
           <li key={projects.id}>
-            <a href={projects.url}>
             <div>
                 <div className={project.card} style={{ width: "18rem" }}>
-                    <img src={projects.image} alt={projects.title}></img>
-                    <div className="card-body">
+                <div className="card-body">
+                <a href={projects.url}><img src={projects.image} alt={projects.title}></img></a>
                         <div className={project.cardText}>{projects.title}</div>
-                        <button onClick={e => projects.repository}>Github</button>
+                        <a href={projects.repository}><button>Github</button></a>
                     </div>
                 </div>
             </div>
-            </a>
           </li>
         
     ))
