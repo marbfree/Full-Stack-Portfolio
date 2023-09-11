@@ -54,3 +54,22 @@ h2 {
     bottom: 140px;
     left: 215px;
 }
+
+@media screen and (max-width: 770px) {
+    .background {
+      background-color: #eea6be;
+    }
+    .submit {
+        position: absolute;
+        top: 600px;
+        right: 250px;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .submit {
+        position: absolute;
+        top: 715px;
+        right: 600px;
+    }
+  }

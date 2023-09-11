@@ -13,7 +13,7 @@
     background-image: url('../../images/MountainPeak.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .cardText {
@@ -42,5 +42,12 @@ button {
 
 .card-img-top {
     height: 15rem;
-    object-fit: cover;
+    object-fit: contain;    
 }
+
+@media screen and (max-width: 770px) {
+    body {
+      background-image: none;
+      background-color: #eea6be;
+    }
+  }

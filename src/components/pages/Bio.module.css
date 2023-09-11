@@ -24,3 +24,10 @@ p {
     font-weight: bold;
     padding: 50px
 }
+
+@media screen and (max-width: 770px) {
+    body {
+      background-image: none;
+      background-color: #eea6be;
+    }
+  }

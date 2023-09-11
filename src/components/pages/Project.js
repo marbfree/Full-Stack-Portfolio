@@ -60,8 +60,8 @@ export default function Projects() {
           <li key={projects.id}>
             <div>
                 <div className={project.card} style={{ width: "18rem" }}>
-                <div>
-                <a href={projects.url}><img className="card-img-top" src={projects.image} alt={projects.title}></img></a>
+                <div className='card-body'>
+                <a href={projects.url}><img className="card-img-top img-fluid" src={projects.image} alt={projects.title}></img></a>
                         <div className={project.cardText}>{projects.title}</div>
                         <a href={projects.repository}><button>Github</button></a></div>
                     </div>
