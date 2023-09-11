@@ -1,3 +1,20 @@
 .background {
-    background-image: url(./);
+    background-image: url(../../images/lake.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.text {
+    color:#eea6be;
+    font-size: 1.25em;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 300px;
+    left: 325px;
 }
