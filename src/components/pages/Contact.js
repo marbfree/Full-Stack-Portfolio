@@ -4,9 +4,10 @@ import contact from "../pages/contact.module.css";
 import {useState} from "react";
 
 export default function Contact() {
-    const [Name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [message, setMessage] = useState("")
+    const [Name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [error, setError] = useState(null);
 
     function handleClick(event) {
         event.preventDefault();
@@ -18,14 +19,17 @@ export default function Contact() {
             alert("Please enter a vaild email");
         } else if (message=="") {
             alert("Please enter a Message");
-        }}
+        }} 
     function handleName(event) {
-        console.log(event.target.value)
         setName(event.target.value)
     }
+    function isValidEmail(email) {
+        return /\S+@\S+\.\S+/.test(email);
+    }
     function handleEmail(event) {
-        console.log(event.target.value)
-        setEmail(event.target.value)
+        if (!isValidEmail(event.target.value)){
+        setError('Email is invalid')
+    } else setEmail(event.target.value)
     }  
     function handleMessage(event) {
         console.log(event.target.value)
