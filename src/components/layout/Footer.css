@@ -1,8 +1,6 @@
 .footer {
     background-color: #eea6be;
-    display:flex;
-    justify-content: center;
-    padding: 10px;
+    text-align: center;
 }
 
 a {

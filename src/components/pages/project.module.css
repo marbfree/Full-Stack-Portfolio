@@ -1,7 +1,6 @@
 .card {
     text-align: center;
     background-color: #eea6be;
-    max-height: 300px;
     border: solid #084961;
     border-radius: 50px;
 }
@@ -21,8 +20,13 @@
     color: #084961;
 }
 
-ul {
+.mkCards {
     list-style: none;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
 }
 
 button {
@@ -31,4 +35,9 @@ button {
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 2px;
+}
+
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
 }
