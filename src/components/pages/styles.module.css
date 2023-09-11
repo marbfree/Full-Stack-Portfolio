@@ -9,6 +9,16 @@
     justify-content: center;
 }
 
+.fadeInHello {
+    animation: fade 2s ease-in;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
+
 .card {
     text-align: center;
     margin-top: -250px;
@@ -69,10 +79,18 @@ h2 {
     }
   }
 
-  @media screen and (min-width: 990px) {
+@media screen and (min-width: 990px) {
     .submit {
         position: absolute;
         top: 715px;
         right: 600px;
+    }
+  }
+
+@media screen and (min-width: 1150px) {
+    .submit {
+        position: absolute;
+        top: 715px;
+        right: 1000px;
     }
   }

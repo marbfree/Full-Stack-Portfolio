@@ -8,21 +8,34 @@
 .text {
     color:#eea6be;
     font-size: 1.25em;
-    position: absolute;
-    bottom: 0px;
     text-align: center;
+    top: 500px;
+    right: 50px;
+    left: 100px;
+
 }
 
 .button {
     position: absolute;
     display: flex;
-    top: 300px;
-    left: 325px;
+    top: 225px;
+    left: 750px;
+    font-size: large;
 }
 
 @media screen and (max-width: 770px) {
     .button {
-        top: 250px;
+        top: 300px;
         left: 150px;
     }   
+    .text {
+        top: 250px;
+        left: 15px;
+    }
+  }
+
+@media screen and (min-width: 1220px) {
+    .text {
+        color: #084961;
+    }
   }

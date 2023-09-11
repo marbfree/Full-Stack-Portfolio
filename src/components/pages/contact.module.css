@@ -7,8 +7,10 @@
 }
 
 @media screen and (min-width: 990px) {
-    .container {
+    textarea {
         position: absolute;
+        left: 50px;
+        top: 490px;
     }
   }
 
@@ -16,6 +18,5 @@
     .text {
         left: -0px;
         top: -20px;
-        
     }
   }
