@@ -30,4 +30,26 @@ p {
       background-image: none;
       background-color: #eea6be;
     }
+    p {
+        position: relative;
+        margin-right: 50px;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    img {
+        margin-top: 150px;
+        position: relative;
+    }
+    h5 {
+        position: absolute;
+        right: 150px;
+        top: 700px;
+        margin: 5px;
+    }
   }
+  @media screen and (min-width: 880px) {
+    p {
+        margin-right: 500px;
+    }
+    }
+  
