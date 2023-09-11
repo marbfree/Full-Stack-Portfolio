@@ -15,6 +15,7 @@
 
 .button {
     position: absolute;
+    display: flex;
     top: 300px;
     left: 325px;
 }
