@@ -58,20 +58,20 @@ export default function Projects() {
     const listItems = projects.map(projects => (
         
           <li key={projects.id}>
-            <div>
                 <div className={project.card} style={{ width: "18rem" }}>
+                <a href={projects.url}><img className="col-12" src={projects.image} alt={projects.title}></img></a>
+
                 <div className='card-body'>
-                <a href={projects.url}><img className="card-img-top img-fluid" src={projects.image} alt={projects.title}></img></a>
-                        <div className={project.cardText}>{projects.title}</div>
-                        <a href={projects.repository}><button>Github</button></a></div>
-                    </div>
+                    <div className={project.cardText}>{projects.title}</div>
+                <a href={projects.repository}><button>Github</button></a>
+                </div>
                 </div>
           </li>
         
     ))
     return (
         <body className={project.body}>
-            <h1 className={styles.heading}>Projects</h1>
+            <div className={styles.fadeInHello}><h1 className={styles.heading}>Projects</h1></div>
             <ul className={project.mkCards}>{listItems}</ul>;
         </body>
     );

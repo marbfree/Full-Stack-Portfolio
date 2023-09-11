@@ -7,7 +7,7 @@ export default function Bio() {
   return (
     <body>
     <div>
-      <h1 className={styles.heading}>Bio</h1>
+      <div className={styles.fadeInHello}><h1 className={styles.heading}>Bio</h1></div>
       <div style={{maxWidth: '500px'}}>
   <div className="row g-0">
     <div className="col-md-8">

@@ -37,7 +37,7 @@ export default function Contact() {
     }
     return (
         <section className={styles.background}>
-            <h2 className={styles.title}>Contact</h2>
+            <div className={styles.fadeInHello}><h2 className={styles.title}>Contact</h2></div>
             <div className={contact.text}>Marianna Bruns</div>
             <div className={contact.text}>Email: mariannabfree@gmail.com</div>
             <div className={contact.text}>Phone: (404) 769-8522</div>
