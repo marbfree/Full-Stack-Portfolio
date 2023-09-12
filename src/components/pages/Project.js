@@ -58,11 +58,10 @@ export default function Projects() {
     const listItems = projects.map(projects => (
         
           <li key={projects.id}>
-       
                 <div className={project.card} style={{ width: "18rem", height: "15rem" }}>
-                <div class="container"><a href={projects.url}><img src={projects.image} alt={projects.title}></img></a></div>
+                <div><a href={projects.url}><img  className="card-img-top" src={projects.image} alt={projects.title}></img></a></div>
                     <div className={project.cardText}>{projects.title}</div>
-                <a href={projects.repository}><button>Github</button></a>
+                <button onClick={projects.repository}>Github</button>
                 </div> 
           </li>
         

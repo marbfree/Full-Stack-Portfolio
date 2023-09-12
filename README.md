@@ -47,6 +47,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 [License](#license)
 
+[Credits](#credits)
+
 [Questions](#questions)
 
 ## Installation 
@@ -58,6 +60,8 @@ Clone repository and install packages.  Once packages are installed run npm star
 ## License
   mit
       [License](https://choosealicense.com/licenses/mit/)     
+## Credits
+  Thank you to tutor, David Johnson, for help with lines 8-37 in Contact.js.
   
 ## Questions
 Check out my GitHub at https://github.com/marbfree 
