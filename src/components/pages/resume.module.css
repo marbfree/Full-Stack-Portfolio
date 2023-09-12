@@ -16,18 +16,18 @@
 }
 
 .button {
-    position: absolute;
+    position: relative;
     display: flex;
-    top: 225px;
-    left: 750px;
+    top: 225px; 
+    left: 750px; 
     font-size: large;
 }
 
 @media screen and (max-width: 770px) {
-    /* .button {
+    .button {
         top: 300px;
         left: 150px;
-    }    */
+    }   
     .text {
         top: 250px;
         left: 15px;
@@ -37,5 +37,16 @@
 @media screen and (min-width: 1220px) {
     .text {
         color: #084961;
+    }
+  }
+
+  @media screen and (min-width: 770px) {
+    .button {
+        left: 450px;
+    }
+    .text {
+        top: 450px;
+        left: 50px;
+        right: 0px;
     }
   }
