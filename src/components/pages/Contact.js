@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../../components/pages/styles.module.css';
 import contact from "../pages/contact.module.css";
 import {useState} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Contact() {
     const [Name, setName] = useState("");
@@ -39,8 +40,8 @@ export default function Contact() {
         <section className={styles.background}>
             <div className={styles.fadeInHello}><h2 className={styles.title}>Contact</h2></div>
             <div className={contact.text}>Marianna Bruns</div>
-            <div className={contact.text}>Email: mariannabfree@gmail.com</div>
-            <div className={contact.text}>Phone: (404) 769-8522</div>
+            <div className={contact.text}><FontAwesomeIcon icon="fa-solid fa-envelope" />     Email: mariannabfree@gmail.com</div>
+            <div className={contact.text}><FontAwesomeIcon icon="fa-solid fa-phone" />     Phone: (404) 769-8522</div>
             <div className="container">
                 <form action="action_page.php">
 
