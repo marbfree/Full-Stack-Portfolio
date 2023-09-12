@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Full-Stack-Portfolio/static/css/main.75208aef.css",
-    "main.js": "/Full-Stack-Portfolio/static/js/main.13d6d718.js",
+    "main.css": "/Full-Stack-Portfolio/static/css/main.d3f357cc.css",
+    "main.js": "/Full-Stack-Portfolio/static/js/main.14fd6d76.js",
     "static/media/MountainPeak.jpeg": "/Full-Stack-Portfolio/static/media/MountainPeak.61b5589b2927109cd82d.jpeg",
     "static/media/PortfolioPic.jpg": "/Full-Stack-Portfolio/static/media/PortfolioPic.ece0ab8807d976293f61.jpg",
     "static/media/lake.jpeg": "/Full-Stack-Portfolio/static/media/lake.ab00564b2a36058decb6.jpeg",
@@ -14,11 +14,11 @@
     "static/media/JATE.png": "/Full-Stack-Portfolio/static/media/JATE.b6c8174e79fc04b3f43c.png",
     "static/media/Rocks.jpeg": "/Full-Stack-Portfolio/static/media/Rocks.c7dfa19e5a49f248d89b.jpeg",
     "index.html": "/Full-Stack-Portfolio/index.html",
-    "main.75208aef.css.map": "/Full-Stack-Portfolio/static/css/main.75208aef.css.map",
-    "main.13d6d718.js.map": "/Full-Stack-Portfolio/static/js/main.13d6d718.js.map"
+    "main.d3f357cc.css.map": "/Full-Stack-Portfolio/static/css/main.d3f357cc.css.map",
+    "main.14fd6d76.js.map": "/Full-Stack-Portfolio/static/js/main.14fd6d76.js.map"
   },
   "entrypoints": [
-    "static/css/main.75208aef.css",
-    "static/js/main.13d6d718.js"
+    "static/css/main.d3f357cc.css",
+    "static/js/main.14fd6d76.js"
   ]
 }
