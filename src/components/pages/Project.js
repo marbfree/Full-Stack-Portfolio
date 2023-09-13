@@ -56,20 +56,39 @@ export default function Projects() {
     ]
 
     const listItems = projects.map(projects => (
-        
-          <li key={projects.id}>
-                <div className={project.card} style={{ width: "18rem", height: "15rem" }}>
-                <div><a href={projects.url}><img  className="card-img-top" src={projects.image} alt={projects.title}></img></a></div>
-                    <div className={project.cardText}>{projects.title}</div>
-                <button onClick={projects.repository}>Github</button>
-                </div> 
-          </li>
-        
+
+
+
+
+        <div key={projects.id} className="col">
+            
+            <div className={project.card} style={{ width: "18rem", height: "15rem" }}>
+                <div><a href={projects.url}>
+                    <img className="card-img-top" style={{borderRadius: "15px"}} src={projects.image} alt={projects.title} />
+                    </a>
+                </div>
+                <div className={project.cardText}>{projects.title}</div>
+                <a href={projects.repository}><button>Github</button></a>
+            </div>
+
+            {/* <div class="card" >
+                <img class="card-img-top" style={{maxWidth: "100%"}} src={projects.image} alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">{projects.title}</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+        </div> */}
+</div>
     ))
     return (
         <body className={project.body}>
             <div className={styles.fadeInHello}><h1 className={styles.heading}>Projects</h1></div>
-            <ul className={project.mkCards}>{listItems}</ul>;
+            <div className={project.mkCards}>{listItems}</div>;
+            {/* <div class="container">
+                <div class="row row-cols-3">{listItems}</div>
+            </div> */}
         </body>
     );
 }
