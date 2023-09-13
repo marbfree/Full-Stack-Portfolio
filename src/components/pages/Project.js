@@ -60,7 +60,7 @@ export default function Projects() {
 
 
 
-        <div key={projects.id} className="col">
+        <div key={projects.id} className="col mt-5">
             
             <div className={project.card} style={{ width: "18rem", height: "15rem" }}>
                 <div><a href={projects.url}>
