@@ -13,11 +13,11 @@ h5 {
 
 p {
     position: absolute;
-    margin-left: px;
     margin-top: 50px;
     margin-right: 250px;
+    margin-left: 100px;
     font-weight: bold;
-    padding: 50px
+    padding-top: 15px;
 }
 
 @media screen and (max-width: 770px) {
@@ -42,9 +42,9 @@ p {
         margin: 5px;
     }
   }
-  @media screen and (min-width: 880px) {
+  /* @media screen and (min-width: 880px) {
     p {
         margin-right: 500px;
     }
-    }
+    } */
   
