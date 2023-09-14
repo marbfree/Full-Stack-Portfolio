@@ -31,20 +31,10 @@ p {
         margin-top: 25px;
         margin-left: 50px;
     }
-    img {
-        margin-top: 150px;
-        position: relative;
-    }
     h5 {
         position: absolute;
         right: 150px;
-        top: 700px;
+        top: 625px;
         margin: 5px;
     }
   }
-  /* @media screen and (min-width: 880px) {
-    p {
-        margin-right: 500px;
-    }
-    } */
-  
