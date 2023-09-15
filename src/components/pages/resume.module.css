@@ -1,42 +1,40 @@
 .background {
-    background-image: url(../../images/lake.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  background-image: url(../../images/lake.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .text {
-    color:#eea6be;
-    font-size: 1.25em;
-    text-align: center;
-    top: 600px; 
-    right: 50px;
-    left: 100px;
-
+  color: #eea6be;
+  font-size: 1.25em;
+  text-align: center;
+  top: 600px;
+  right: 50px;
+  left: 100px;
 }
 
 .button {
-    position: relative;
-    display: flex;
-    top: 225px; 
-    left: 200px; 
-    font-size: large;
+  position: relative;
+  display: flex;
+  top: 225px;
+  left: 200px;
+  font-size: large;
 }
 
 @media screen and (max-width: 770px) {
-    .button {
-        top: 300px;
-        left: 150px;
-    }   
-    .text {
-
-        top: 350px;
-        left: 15px;
-    }
+  .button {
+    top: 300px;
+    left: 150px;
   }
+  .text {
+    top: 350px;
+    left: 15px;
+  }
+}
 
 @media screen and (min-width: 1220px) {
-    .text {
-        color: #084961;
-    }
+  .text {
+    color: #084961;
   }
+}

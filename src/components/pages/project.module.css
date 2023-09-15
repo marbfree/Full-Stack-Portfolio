@@ -1,50 +1,49 @@
 .card {
-    text-align: center;
-    background-color: #eea6be;
-    border: solid #084961;
-    border-radius: 15px;
-    position: relative;
-    display: flex;
-    top: 200px;
+  text-align: center;
+  background-color: #eea6be;
+  border: solid #084961;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  top: 200px;
 }
 
 .body {
-    background-image: url('../../images/MountainPeak.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  background-image: url("../../images/MountainPeak.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .cardText {
-    padding: 5px;
-    color: #084961;
-    position: absolute;
-    left: 100px;
-    top: 140px;
-    font-weight: bold;
+  padding: 5px;
+  color: #084961;
+  position: absolute;
+  left: 100px;
+  top: 140px;
+  font-weight: bold;
 }
-    
 
 .mkCards {
-    display: flex;
-    position: absolute;
-    flex-wrap: wrap;
-    margin-left: 50px;
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  margin-left: 50px;
 }
 
 button {
-    background-color: #084961;
-    color:#eea6be;
-    border-radius: 15px;
-    padding: 10px;
-    position: absolute;
-    top: 175px;
-    right: 100px;
+  background-color: #084961;
+  color: #eea6be;
+  border-radius: 15px;
+  padding: 10px;
+  position: absolute;
+  top: 175px;
+  right: 100px;
 }
 
 @media screen and (max-width: 770px) {
-    body {
-      background-image: none;
-      background-color: #eea6be;
-    }
+  body {
+    background-image: none;
+    background-color: #eea6be;
   }
+}

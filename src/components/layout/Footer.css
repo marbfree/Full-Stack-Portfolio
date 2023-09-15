@@ -1,11 +1,8 @@
 .footer {
-    background-color: #eea6be;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #eea6be;
+  text-align: center;
 }
 
 a {
-    color: #084961
+  color: #084961;
 }

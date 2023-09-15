@@ -1,10 +1,8 @@
 import React from "react";
-import styles from '../pages/styles.module.css';
-
-
+import styles from "../pages/styles.module.css";
 
 const Home = () => {
-    return (
+  return (
     <div>
       <header className={styles.background}>
         <div className={styles.card}>
@@ -13,7 +11,7 @@ const Home = () => {
         </div>
       </header>
     </div>
-    )
-}
+  );
+};
 
-export default Home
+export default Home;

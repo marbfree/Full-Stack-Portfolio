@@ -1,20 +1,25 @@
+![alt text](https://img.shields.io/badge/license-mit-blue)
 
-  ![alt text](https://img.shields.io/badge/license-mit-blue)
-# Full Stack Portfolio 
-## Description 
-  
-  ![alt text](https://img.shields.io/badge/license-mit-blue)
-# Full Stack Portfolio 
-  ```
-  AS AN employer looking for candidates with experience building          single-page applications
-  
-  I WANT to view a potential employee's deployed React portfolio of work samples
+# Full Stack Portfolio
 
-  SO THAT I can assess whether they're a good candidate for an open position
+## Description
+
+![alt text](https://img.shields.io/badge/license-mit-blue)
+
+# Full Stack Portfolio
+
 ```
-## Description 
-  ```
-  GIVEN a single-page application portfolio for a web developer
+AS AN employer looking for candidates with experience building          single-page applications
+
+I WANT to view a potential employee's deployed React portfolio of work samples
+
+SO THAT I can assess whether they're a good candidate for an open position
+```
+
+## Description
+
+```
+GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
 WHEN I view the header
@@ -38,10 +43,12 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+
 ## Table of Contents
-[Installation](#installation) 
+
+[Installation](#installation)
 
 [Usage](#usage)
 
@@ -51,21 +58,26 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 [Questions](#questions)
 
-## Installation 
-Clone repository and install packages.  Once packages are installed run npm start in the terminal.  
- 
-## Usage 
-  ![alt text](/src/images/homepage.png)
-  Visit the page at https://marbfree.github.io/Full-Stack-Portfolio/
+## Installation
+
+Clone repository and install packages. Once packages are installed run npm start in the terminal.
+
+## Usage
+
+![alt text](/src/images/homepage.png)
+Visit the page at https://marbfree.github.io/Full-Stack-Portfolio/
+
 ## License
-  mit
-      [License](https://choosealicense.com/licenses/mit/)     
+
+mit
+[License](https://choosealicense.com/licenses/mit/)
+
 ## Credits
-  Thank you to tutor, David Johnson, for help with lines 8-37 in Contact.js.
-  
+
+Thank you to tutor, David Johnson, for help with lines 8-37 in Contact.js.
+
 ## Questions
-Check out my GitHub at https://github.com/marbfree 
+
+Check out my GitHub at https://github.com/marbfree
 
 Contact me at mariannabfree@gmail.com for any further questions.
-
-
