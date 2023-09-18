@@ -6,7 +6,7 @@
 }
 
 form {
-  position: relative;
-  margin-top: -350px;
-  left: 100px;
+  position: absolute;
+  margin-top: -200px;
+  left: 420px;
 }
