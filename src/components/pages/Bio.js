@@ -15,7 +15,7 @@ export default function Bio() {
             <div className="col-md-8">
               <img
                 src={logo}
-                style={{ margin: "50px" }}
+                style={{ margin: "100px" }}
                 className="img-fluid rounded-circle"
                 alt="Headshot of Marianna Bruns"
               ></img>

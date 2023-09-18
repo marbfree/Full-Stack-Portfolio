@@ -2,21 +2,11 @@
   color: #084961;
   font-size: 1.25em;
   position: relative;
-  left: -100px;
-  bottom: 50px;
+  bottom: 250px;
 }
 
-@media screen and (min-width: 990px) {
-  textarea {
-    position: absolute;
-    left: 45px;
-    top: 650px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .text {
-    left: -0px;
-    top: -20px;
-  }
+form {
+  position: relative;
+  margin-top: -350px;
+  left: 100px;
 }

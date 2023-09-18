@@ -51,45 +51,8 @@ export default function Contact() {
         <FontAwesomeIcon icon="fa-solid fa-phone" /> Phone: (404) 769-8522
       </div>
       <div className="container">
-        <form action="action_page.php">
-          <label htmlFor="fname"></label>
-          <input
-            onChange={handleName}
-            style={{
-              marginBottom: "10px",
-              marginRight: "10px",
-              marginTop: "0px",
-            }}
-            type="text"
-            id="fname"
-            name="name"
-            placeholder="Name"
-          ></input>
-
-          <label htmlFor="lname"></label>
-          <input
-            onChange={handleEmail}
-            type="text"
-            id="email"
-            name="email"
-            placeholder="email"
-          ></input>
-
-          <label htmlFor="subject"></label>
-          <textarea
-            onChange={handleMessage}
-            id="subject"
-            name="subject"
-            placeholder="Write Message"
-            style={{ height: "200px", width: "500px" }}
-          ></textarea>
-
-          <input
-            onClick={handleClick}
-            className={styles.submit}
-            type="submit"
-            value="Submit"
-          ></input>
+        <form action="mailto:mariannabfree@gmail.com">
+          <input className={styles.submit} id="button" type="Submit" value="Send me a Message" ></input>
         </form>
       </div>
     </section>

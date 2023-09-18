@@ -52,7 +52,7 @@ h2 {
 .submit {
   position: relative;
   top: 150px;
-  right: 275px;
+  left: 300px;
   color: #084961;
   background-color: #eea6be;
 }
@@ -65,32 +65,4 @@ h2 {
   left: 215px;
 }
 
-@media screen and (max-width: 770px) {
-  .background {
-    background-color: #eea6be;
-  }
-  .submit {
-    position: absolute;
-    top: 600px;
-    right: 250px;
-  }
-  .heading {
-    position: relative;
-  }
-}
 
-@media screen and (min-width: 990px) {
-  .submit {
-    position: absolute;
-    top: 855px;
-    right: 675px;
-  }
-}
-
-@media screen and (min-width: 1150px) {
-  .submit {
-    position: absolute;
-    top: 715px;
-    right: 1000px;
-  }
-}
