@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Full-Stack-Portfolio/static/css/main.99d42a46.css",
-    "main.js": "/Full-Stack-Portfolio/static/js/main.94dee3fb.js",
+    "main.js": "/Full-Stack-Portfolio/static/js/main.a46d412f.js",
+    "static/media/SereneSoul.png": "/Full-Stack-Portfolio/static/media/SereneSoul.55246cf5519fd896aa2e.png",
     "static/media/MountainPeak.jpeg": "/Full-Stack-Portfolio/static/media/MountainPeak.61b5589b2927109cd82d.jpeg",
     "static/media/PortfolioPic.jpg": "/Full-Stack-Portfolio/static/media/PortfolioPic.ece0ab8807d976293f61.jpg",
     "static/media/lake.jpeg": "/Full-Stack-Portfolio/static/media/lake.ab00564b2a36058decb6.jpeg",
@@ -10,15 +11,14 @@
     "static/media/FoodSmart.png": "/Full-Stack-Portfolio/static/media/FoodSmart.10877ded5a5d0681920e.png",
     "static/media/MCQ.png": "/Full-Stack-Portfolio/static/media/MCQ.78fd64cc51c82bdc3a88.png",
     "static/media/TechBlog.png": "/Full-Stack-Portfolio/static/media/TechBlog.2e118101c39ed3de3553.png",
-    "static/media/NoteTaker.png": "/Full-Stack-Portfolio/static/media/NoteTaker.f3188eea15331e31ae2e.png",
     "static/media/JATE.png": "/Full-Stack-Portfolio/static/media/JATE.b6c8174e79fc04b3f43c.png",
     "static/media/Rocks.jpeg": "/Full-Stack-Portfolio/static/media/Rocks.c7dfa19e5a49f248d89b.jpeg",
     "index.html": "/Full-Stack-Portfolio/index.html",
     "main.99d42a46.css.map": "/Full-Stack-Portfolio/static/css/main.99d42a46.css.map",
-    "main.94dee3fb.js.map": "/Full-Stack-Portfolio/static/js/main.94dee3fb.js.map"
+    "main.a46d412f.js.map": "/Full-Stack-Portfolio/static/js/main.a46d412f.js.map"
   },
   "entrypoints": [
     "static/css/main.99d42a46.css",
-    "static/js/main.94dee3fb.js"
+    "static/js/main.a46d412f.js"
   ]
 }
