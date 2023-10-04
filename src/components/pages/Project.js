@@ -5,11 +5,18 @@ import foodsmart from "../../images/FoodSmart.png";
 import dynamic from "../../images/DynamicDishes.png";
 import quiz from "../../images/MCQ.png";
 import editor from "../../images/JATE.png";
-import note from "../../images/NoteTaker.png";
+import soul from "../../images/SereneSoul.png";
 import tech from "../../images/TechBlog.png";
 
 export default function Projects() {
   const projects = [
+    {
+      id: 5,
+      image: soul,
+      title: "Serene Soul",
+      url: "https://fast-crag-82231-d0ecbeff422b.herokuapp.com/",
+      repository: "https://github.com/ulianaim/mindfulness_app",
+    },
     {
       id: 0,
       image: foodsmart,
@@ -45,13 +52,6 @@ export default function Projects() {
       title: "Tech Blog",
       url: "https://a-blog-for-developers-d8066191be14.herokuapp.com/",
       repository: "https://github.com/marbfree/Tech-Blog",
-    },
-    {
-      id: 5,
-      image: note,
-      title: "Note Taker",
-      url: "https://organize-note-05cd8fd11513.herokuapp.com/",
-      repository: "https://github.com/marbfree/Note-Taker",
     },
   ];
 
